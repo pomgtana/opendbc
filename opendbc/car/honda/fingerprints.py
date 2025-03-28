@@ -777,17 +777,31 @@ FW_VERSIONS = {
       b'38897-T7A-A010\x00\x00',
       b'38897-T7A-A110\x00\x00',
     ],
+    (Ecu.gateway, 0x18da10f1, None): [
+      b'38897-3M0-Z010\x00\x00',
+    ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-THX-A020\x00\x00',
+      b'39990-3M0-J030\x00\x00',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36161-T7A-A040\x00\x00',
       b'36161-T7A-A140\x00\x00',
       b'36161-T7A-A240\x00\x00',
       b'36161-T7A-C440\x00\x00',
+      b'8S102-3M3-T060\x00\x00',
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-T7A-A230\x00\x00',
+    ],
+    (Ecu.srs, 0x18da17f1, None): [
+      b'77959-3M1-Z810\x00\x00',
+    ],
+    (Ecu.vsa, 0x18da28f1, None): [
+      b'57114-3N1-T020\x00\x00',
+    ],
+    (Ecu.combinationMeter, 0x18da60f1, None): [
+      b'78109-3N0-TA10\x00\x00',
     ],
   },
   CAR.HONDA_HRV_3G: {
